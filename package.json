@@ -1,6 +1,6 @@
 {
   "name": "cz-calendar",
-  "version": "0.20.4",
+  "version": "0.20.5",
   "description": "Calendar! with events",
   "author": "",
   "license": "MIT",
@@ -29,8 +29,7 @@
     "tdd": "jest --watch",
     "release": "rollout",
     "prepublishOnly": "npm run build",
-    "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write ",
-    "precommit": "lint-staged"
+    "prettier": "prettier '**/*js' !examples/bundle.js '!lib/**' --write "
   },
   "lint-staged": {
     "src/**/*.js": "eslint",
