@@ -1,23 +1,14 @@
 {
-  "name": "react-big-calendar",
+  "name": "cz-calendar",
   "version": "0.20.4",
   "description": "Calendar! with events",
-  "author": "Jason Quense <monastic.panic@gmail.com>",
-  "repository": "intljusticemission/react-big-calendar",
+  "author": "",
   "license": "MIT",
   "main": "lib/index.js",
   "style": "lib/css/react-big-calendar.css",
   "files": [
     "lib/",
     "README.md"
-  ],
-  "keywords": [
-    "scheduler",
-    "react-component",
-    "react",
-    "calendar",
-    "events",
-    "full calendar"
   ],
   "scripts": {
     "clean": "rimraf lib",
@@ -57,8 +48,8 @@
     "bracketSpacing": true
   },
   "peerDependencies": {
-    "react": "^16.3.0",
-    "react-dom": "^16.3.0"
+    "react": "^16.3.0 || ^17 || ^18",
+    "react-dom": "^16.3.0 || ^17 || ^18"
   },
   "devDependencies": {
     "@4c/rollout": "^1.2.0",
